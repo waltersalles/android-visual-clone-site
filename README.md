@@ -1,51 +1,45 @@
-## Project info
+# Clone Visual do Site "A História do Mascote do Android"
 
-## How can I edit this code?
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-There are several ways of editing your application.
+Este repositório contém um projeto de estudo focado em recriar visualmente o site "A História do Mascote do Android". O projeto foi desenvolvido como parte do curso de HTML5 e CSS3 do **Curso em Vídeo**, ministrado pelo professor Gustavo Guanabara.
 
-**Use your preferred IDE**
+## 🎯 Objetivo do Projeto
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+O objetivo principal foi aplicar e solidificar conceitos fundamentais de desenvolvimento web frontend, focando na estrutura semântica do HTML e na estilização precisa com CSS para replicar um design existente.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ✨ Principais Aprendizados e Técnicas Aplicadas
 
-Follow these steps:
+* **HTML5 Semântico:** Utilização correta de tags como `<header>`, `<main>`, `<article>`, `<aside>`, `<footer>` e `<nav>` para estruturar a página de forma lógica e acessível.
+* **Estilização com CSS3:** Aplicação de fontes customizadas, gradientes, sombras em texto e caixas (`box-shadow`), e posicionamento de elementos.
+* **Design Responsivo:** Implementação de regras de `@media query` para garantir que o site se adapte a diferentes tamanhos de tela.
+* **Incorporação de Mídia:** Inserção de imagens e vídeos do YouTube de forma responsiva dentro do layout.
+* **Seletores CSS Avançados:** Uso de pseudo-classes e pseudo-elementos para estilizar elementos específicos da página.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🚀 Visualização (Live Demo)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Você pode ver o site funcionando através do link abaixo:
 
-# Step 3: Install the necessary dependencies.
-npm i
+**[Clique aqui para ver o projeto ao vivo](https://SEU-USUARIO.github.io/android-visual-clone-site/)**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+*(**Nota:** Para que este link funcione, você precisa ativar o GitHub Pages neste repositório. Veja a "Dica de Ouro" abaixo.)*
 
-**Edit a file directly in GitHub**
+## 🔧 Como Visualizar Localmente
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1.  Clone o repositório para a sua máquina.
+2.  Abra o arquivo `index.html` em seu navegador de preferência.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### ⭐ Dica de Ouro: Ative o GitHub Pages!
 
-## What technologies are used for this project?
+Um portfólio fica muito mais forte quando a pessoa pode ver seus projetos funcionando ao vivo, e não apenas o código. O GitHub Pages é uma ferramenta gratuita que permite fazer exatamente isso.
 
-This project is built with:
+1.  No seu repositório, vá em **"Settings"** (Configurações).
+2.  No menu lateral, clique em **"Pages"**.
+3.  Na seção "Branch", selecione a branch `main` e clique em **"Save"**.
+4.  Aguarde alguns minutos e o GitHub publicará seu site. O link aparecerá nessa mesma página. Depois é só copiar esse link e colar no lugar do placeholder no `README.md` acima.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
+Desenvolvido por Walter Salles.
