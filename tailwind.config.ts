@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,12 +62,21 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				android: {
+					green: '#83e042',
+					'dark-green': '#2fa866',
+					'light-green': '#c5ebd6',
+					'bg-green': '#ebe5c5'
 				}
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			fontFamily: {
+				'bebas': ['Bebas Neue', 'sans-serif'],
 			},
 			keyframes: {
 				'accordion-down': {
